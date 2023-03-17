@@ -1,21 +1,22 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-/**
- * main - Empty point
- *
- * Return: Always 0 (success)
- */
 
+/**
+ * main - Entry point for print entire lowercase alphabet except q and e
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char c;
-
-	c = 'a';
-	while
-		(c <= 'z') {
-			if ((c != 'q' && c != 'e') && c <= 'z')
-			       putchar(c);
-		        c++;
+	char d;
+	for (d= 'a' ; d <= 'z' ; d++)
+	{
+		if (d != 'q' && d != 'e')
+		{
+			putchar(d);
 		}
-       putchar('\n');
-       return (0);
-}       
+	}
+	putchar('\n');
+	return (0);
+}
