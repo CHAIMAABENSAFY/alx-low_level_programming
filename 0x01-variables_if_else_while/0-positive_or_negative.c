@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <time.h>
-/*
- * if the number is greater than 0: is positive
- * if the number is 0: is zero
- * if the number is less than 0: is negative
- */
+/* more headers goes there */
 #include <stdlib.h>
+/* betty style doc for function main goes there */
+/**
+ * main -main function
+ *
+ * Return : always 0
+ */
 int main(void)
 {
 	int n;
